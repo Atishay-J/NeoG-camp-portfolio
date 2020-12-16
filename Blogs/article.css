@@ -34,6 +34,7 @@ header {
   margin: auto;
   margin-top: 4rem;
   box-shadow: var(--box) var(--shadow);
+  padding: 2rem;
 }
 .title {
   text-align: center;
