@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to use FlexBox</title>
+    <link rel="stylesheet" href="article.css" />
+  </head>
+  <header>
+    <h1 id="title">Blogs</h1>
+    <div id="circle"></div>
+  </header>
+  <body>
+    <div class="container">
+      <h1 class="title">What's the difference in - Var, Let, and Const</h1>
+      <h4 class="article">
+        One of the features that came with ES6 is the addition of let and const,
+        which can be used for variable declaration. The question is, what makes
+        them different from good ol' var which we've been using? If you are
+        still not clear about this, then this article is for you. In this
+        article, we'll discuss var, let and const with respect to their scope,
+        use, and hoisting. As you read, take note of the differences between
+        them that I'll point out.
+        <pre>
+          Var
+        </pre>
+        Before the advent of ES6, var declarations ruled. There are issues
+        associated with variables declared with var, though. That is why it was
+        necessary for new ways to declare variables to emerge. First, let's get
+        to understand var more before we discuss those issues.
+        <pre>Scope of var</pre>
+        cope essentially means where these variables are available for use. var
+        declarations are globally scoped or function/locally scoped. The scope
+        is global when a var variable is declared outside a function. This means
+        that any variable that is declared with var outside a function block is
+        available for use in the whole window. var is function scoped when it is
+        declared within a function. This means that it is available and can be
+        accessed only within that function.
+        <pre>Let</pre>
+        let is now preferred for variable declaration. It's no surprise as it
+        comes as an improvement to var declarations. It also solves the problem
+        with var that we just covered. Let's consider why this is so.
+        <pre>let is block scoped</pre>
+        A block is a chunk of code bounded by {}. A block lives in curly braces.
+        Anything within curly braces is a block.
+        <pre>Const</pre>
+        Variables declared with the const maintain constant values. const
+        declarations share some similarities with let declarations.
+        <pre>const declarations are block scoped</pre>
+        Like let declarations, const declarations can only be accessed within
+        the block they were declared.Like let declarations, const declarations
+        can only be accessed within the block they were declared.
+      </h4>
+    </div>
+  </body>
+</html>
