@@ -148,7 +148,7 @@ header {
   margin-top: 1.3rem;
 }
 .prj_live {
-  width: 45%;
+  width: 35%;
   height: 2rem;
   border: 2px solid var(--col1);
   background: none;
@@ -162,7 +162,7 @@ header {
   transition-delay: all 0.4s ease;
 }
 .prj_src {
-  width: 45%;
+  width: 55%;
   height: 2rem;
   border: 2px solid red;
   background: none;
